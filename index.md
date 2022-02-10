@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# 在github上搭建个人主页
 
-You can use the [editor on GitHub](https://github.com/taoran1401/ranblogs.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[TOC]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 前言
 
-### Markdown
+如果你想搭建自己的个人主页、博客、在线简历而又不想购买云服务器时可以使用这个方法。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 搭建
 
-```markdown
-Syntax highlighted code block
+#### 创建项目
+![创建项目](../static/images/WeChatae449aa3fd979e136c570b47cda53fac.png)
 
-# Header 1
-## Header 2
-### Header 3
+#### 更换主题
 
-- Bulleted
-- List
+![更换主题1](../static/images/WeChat1d15dd934ede3d8fe9653296f332e64b.png)
+![更换主题2](../static/images/WeChat50b5965cc69390cc460e20a51132098c.png)
 
-1. Numbered
-2. List
+更换主题后等个1-5分钟后可访问
 
-**Bold** and _Italic_ and `Code` text
+## 使用
 
-[Link](url) and ![Image](src)
+搭建完成后会有以下两个文件
+```
+_config.yml     //对index.md进行渲染的配置文件
+index.md        //markdown文件
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## 自定义域名
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/taoran1401/ranblogs.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## 其他
