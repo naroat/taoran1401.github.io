@@ -1,4 +1,8 @@
-# 在github上搭建个人主页22
+# 在github上搭建个人主页
+
+[首页](index)
+[博客](blogs)
+
 
 ## 前言
 
@@ -14,7 +18,7 @@
 ![更换主题1](../static/images/WeChat1d15dd934ede3d8fe9653296f332e64b.png)
 ![更换主题2](../static/images/WeChat50b5965cc69390cc460e20a51132098c.png)
 
-更换主题后等个1-5分钟后可访问
+更换主题后等个1-5分钟后就可以访问了
 
 ## 使用
 
@@ -26,8 +30,27 @@ index.md        //markdown文件
 
 #### 编写内容
 
-`http://jekyllcn.com/`
+首页：在`index.md`中添加
+![首页列表](../static/images/WeChatd7b02619afabf9252336179ad5713c34.png)
+
+文章页面： 在`articles/create_mypage.md`中添加
+![文章](../static/images/WeChatdfa02094ec8d41fbca83d3a0fbc081dc.png)
+
+
+如果觉得不够美观可以使用html编写，或者使用jekyll来处理
+
+jekyll地址： `http://jekyllcn.com/`
 
 ## 自定义域名
 
-## 其他
+这里不详细讲了，用aliyun购买的域名举例
+
+1.首先使用ping命令获取ip地址，一会儿用于域名解析
+
+```
+ping 用户名.github.io   
+# 结果示例：64 bytes from xxx.xxx.110.153: icmp_seq=0 ttl=54 time=100.292 ms
+# `xxx.xxx.110.153`这段就是ip
+```
+
+2.进入阿里云控制台域名解析地址到刚才获取的的ip地址即可; 
